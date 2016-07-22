@@ -14,11 +14,11 @@ Quando(/^eu escolher pessoa fisica$/) do
 end
 
 Quando(/^eu preencher o campo CPF$/) do
-  find(:xpath, '//html/body/div[2]/div[2]/div/div[1]/div/form/div[2]/span/input').set("54283321230")  
+  find(:xpath, '//html/body/div[2]/div[2]/div/div[1]/div/form/div[2]/span/input').set("33502125813")  
 end
 
 Quando(/^eu preencher o campo Senha$/) do
-  find(:xpath, '//html/body/div[2]/div[2]/div/div[1]/div/form/div[3]/input').set("egenius")  
+  find(:xpath, '//html/body/div[2]/div[2]/div/div[1]/div/form/div[3]/input').set("qatest96835")  
 end
 
 Quando(/^eu acionar o botao Entrar$/) do
